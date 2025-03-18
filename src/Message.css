@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.main-container{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    background-color: silver;
+    box-shadow: 1px 1px 8px rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+
+}
+
+.msg-container{
+    font-size: large;
+    flex: 1;
+    color: white;
+    overflow-y: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+}
+ 
+.receive{
+    width: fit-content;
+    align-self: flex-start;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-left: 1rem;
+    background-color: white;
+    color: black;
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 8px rgb(80, 80, 80);
+    max-width: 40%;
+    word-wrap: break-word;
+}
+
+.chat-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.send{
+    align-self:flex-end;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    margin-right: 1rem;
+    background-color: #316FF6;
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 1px 1px 8px rgb(80, 80, 80);
+    max-width: 40%;
+    word-wrap: break-word;
+}
+
+.message{
+    width: 100%;
+    height: 5rem;
+    align-self:flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    
+}
+
+#msg{
+    padding: 1rem;
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 16px rgb(96, 96, 96);
+    max-height: 150px;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.chat-head{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: .5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.img-name{
+    display: flex;
+    align-items: center;
+}
+
+.close{
+    cursor: pointer;
+    margin-right: .5rem;
+    color: red;
+}
+
+.send-btn{ 
+    background-color: rgb(17, 102, 17);
+    color: white;
+    padding: .8rem;
+    font-size: medium;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    margin-left: 1rem;
+}
+
+

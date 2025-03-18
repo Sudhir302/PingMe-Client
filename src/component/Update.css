@@ -1,0 +1,9 @@
+.update-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.update-form input{
+    padding: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+} 

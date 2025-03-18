@@ -1,2 +1,0 @@
-# PingMe-Client
-Chat app

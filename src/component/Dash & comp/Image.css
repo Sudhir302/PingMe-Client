@@ -1,0 +1,47 @@
+.img-container{
+     z-index: 100;
+     position: fixed;
+     bottom: .5rem;
+     left: .5rem;
+}
+
+.update-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+ 
+.img-form{
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+}
+
+.layer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.img-form input{
+    width: fit-content;
+    
+    align-self: center;
+}
+
+.upload-btn{
+    width: fit-content;
+    height: fit-content;
+    padding: .8rem;
+    font-size: medium;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+    margin-top: .2rem;
+    background-color: rgb(255, 140, 0);;
+}
+

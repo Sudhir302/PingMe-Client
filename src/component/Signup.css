@@ -1,0 +1,10 @@
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signup-form input{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1rem;
+} 
