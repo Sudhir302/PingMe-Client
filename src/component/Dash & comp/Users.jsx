@@ -58,7 +58,7 @@ function Users(){
             </div>
             <div className="message-box">
                 {selectedUser ? <Message receiverId={selectedUser._id} profile={selectedUser.profileImg} name={selectedUser.username} senderId={senderId} /> : 
-                <div className="start-conversation">Send and receive messages without keeping your phone online. Start Chat now!!!</div> }
+                <div className="start-conversation">Ping anyone from the Chat list. Start Chat now!!!</div> }
             </div>
             <Image />
         </div>
