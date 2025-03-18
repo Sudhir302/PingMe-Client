@@ -8,6 +8,7 @@ import Users from "./component/Dash & comp/Users";
 import { ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 import "./Media.css"
+import Nopage from "./Nopage";
 
 
 function App(){
@@ -17,7 +18,7 @@ function App(){
         <Route path="/" element={<Login />} />
         <Route path="/signup" element= {<Signup />} />
         <Route path="/update/password" element = {<UpdatePassword />} />
-        <Route path = "/image" element = {<Image />} />
+        <Route path = "*" element = {<Nopage />} />
         <Route path="/users/:senderId" element= {<Protected><Users /></Protected>} />
       </Routes>
       <ToastContainer position="top-right"
