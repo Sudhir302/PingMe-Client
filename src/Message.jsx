@@ -12,13 +12,9 @@ const socket = io(`${import.meta.env.VITE_WEBSOCKET_URI}`, {
 
 function Message({profile, receiverId, name, senderId }){
 
-  // let [close, setClose] = useState(false)
   let [oldMessages, setOldMessage] = useState([]);
   let [sms, setSms] = useState("");
 
-  // const closeHandler = ()=>{
-  //   setClose(true);
-  // };
 
   const smsHandler = (e)=>{
     setSms(e.target.value);
@@ -85,7 +81,6 @@ function Message({profile, receiverId, name, senderId }){
           <img src={profile} alt="profile" className="profile-picture" />
           <strong className="username">{name}</strong>
         </div>
-        {/* <div className="close" onClick={closeHandler}>X</div> */}
       </div>
       <div className="msg-container">
         {
