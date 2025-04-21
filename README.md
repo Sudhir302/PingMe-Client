@@ -5,29 +5,36 @@
 ![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-A Full-stack real-time chat web application built with the MERN stack. This app allows users to register, login, and chat in real-time with others using WebSocket technology. It features clean UI, user authentication, persistent message storage, and responsive design for a smooth user experience.
+**PingMe** is a full-stack real-time chat web application built using the **MERN** stack. It allows users to register, log in, and chat in real time using **WebSocket technology**. With a clean UI, responsive design, and persistent chat history, PingMe offers a seamless chatting experience.
+
 This frontend app works together with a Node.js + Express backend.
+
 You can find the backend source code here: 
-    ```
-    https://github.com/Sudhir302/PingMe-Server
+[PingMe-Server (Backend Repo)](https://github.com/Sudhir302/PingMe-Server)
+
+Live on👉: [PingMe Chat App](https://pingme-git-main-sudhir-chaudharys-projects.vercel.app/)
 
 ## ⚡️ Features
 - User Authentication (Login / Signup)
 - Real-time Messaging with Socket.IO
 - Message History saved in Mongodb Atlas
 - Responsive UI for desktop and mobile
+- User search functionality
 
 ## Screenshots
-![desktop-view-1](./screenshots/desk1.png)
-![desktop-view-2](./screenshots/desk2.png)
-![desktop-view-3](./screenshots/desk3.png)
-![desktop-view-4](./screenshots/desk4.png)
-![desktop-view-5](./screenshots/desk5.png)
-![mobile-view-1](./screenshots/mob1.png)
-![mobile-view-2](./screenshots/mob2.png)
-![mobile-view-3](./screenshots/mob3.png)
-![mobile-view-4](./screenshots/mob4.png)
-![mobile-view-5](./screenshots/mob5.png)
+<p >
+    <img src="./screenshots/desk4.png" width="500"/>
+    <img src="./screenshots/desk3.png" width="500"/>
+    <img src="./screenshots/desk1.png" width="500"/>
+    <img src="./screenshots/desk2.png" width="500"/>
+    <img src="./screenshots/desk5.png" width="500"/>
+    <br />
+    <img src="./screenshots/mob1.png" height="500"/>
+    <img src="./screenshots/mob2.png" height="500"/>
+    <img src="./screenshots/mob3.png" height="500"/>
+    <img src="./screenshots/mob4.png" height="500"/>
+    <img src="./screenshots/mob5.png" height="500"/>
+</p>
 
 ## 👩‍💻 Technologies Used
 - Frontend: React, CSS3
@@ -45,18 +52,24 @@ You can find the backend source code here:
 1. Clone the Client repository:
     ```
     https://github.com/Sudhir302/PingMe-Client.git
-
+    ```
 2. Navigate to the project directory:
     ```
     cd PingMe-Client
-
+    ```
 3. Install dependencies:
     ```
     npm install
+    ```
 4. Run the app
     ```
     npm run dev
-
+    ```
+## 🧣 Future Enhancements
+- Add typing indicator
+- Display notification
+- Support for file/media sharing
+  
 ## 📄 License
 
 This project is licensed under the MIT LICENSE - see the [MIT License](./LICENSE) for details.
