@@ -1,9 +1,7 @@
 # PingMe
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 **PingMe** is a full-stack real-time chat web application built using the **MERN** stack. It allows users to register, log in, and chat in real time using **WebSocket technology**. With a clean UI, responsive design, and persistent chat history, PingMe offers a seamless chatting experience.
 
@@ -23,11 +21,11 @@ Live on👉: [PingMe Chat App](https://pingme-git-main-sudhir-chaudharys-project
 
 ## Screenshots
 <p >
-    <img src="./screenshots/desk4.png" width="500"/>
-    <img src="./screenshots/desk3.png" width="500"/>
-    <img src="./screenshots/desk1.png" width="500"/>
-    <img src="./screenshots/desk2.png" width="500"/>
-    <img src="./screenshots/desk5.png" width="500"/>
+    <img src="./screenshots/desk4.png" width="450"/>
+    <img src="./screenshots/desk3.png" width="450"/>
+    <img src="./screenshots/desk1.png" width="450"/>
+    <img src="./screenshots/desk2.png" width="450"/>
+    <img src="./screenshots/desk5.png" width="450"/>
     <br />
     <img src="./screenshots/mob1.png" height="500"/>
     <img src="./screenshots/mob2.png" height="500"/>
@@ -65,6 +63,21 @@ Live on👉: [PingMe Chat App](https://pingme-git-main-sudhir-chaudharys-project
     ```
     npm run dev
     ```
+
+## 📁Project Structure
+    PingMe Client/
+    |
+    ├── pubilc/
+    |
+    ├── screenshots/
+    |
+    ├── src/
+    |    ├──component/
+    |         |
+    |         ├── Dash & comp/
+    |     
+    ├── utils/
+    
 ## 🧣 Future Enhancements
 - Add typing indicator
 - Display notification
